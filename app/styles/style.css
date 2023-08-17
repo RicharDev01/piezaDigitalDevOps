@@ -75,7 +75,83 @@ body { background-color: var(--dark-color); }
 
 /***** css de secciones *****/
 
-.inicio { flex-direction: column; }
+.inicio {
+  position: relative;
+  flex-direction: column;
+
+}
+
+.inicio__icons-floating {
+  position: absolute;
+  top: 0;
+  width: 10rem;
+  
+  filter: drop-shadow(0 0 6rem var(--blue-color));
+
+}
+
+.six-sax { animation: six-sax 1.5s infinite alternate linear; }
+.six-sax2 { animation: six-sax2 1.5s infinite alternate linear; }
+
+@keyframes six-sax {
+  to {
+    transform: translateY(7rem);
+  }
+}
+
+
+@keyframes six-sax2 {
+  to {
+    transform: translateY(-7rem);
+  }
+}
+
+.inicio__icons-floating:nth-child(3) {
+  left: 40rem;
+  top: 20rem;
+}
+.inicio__icons-floating:nth-child(4) {
+  right: 40rem;
+  top: 70rem;
+}
+.inicio__icons-floating:nth-child(5) {
+  left: 100rem;
+  top: 20rem;
+}
+.inicio__icons-floating:nth-child(6) {
+  left: 40rem;
+  top: 70rem;
+}
+.inicio__icons-floating:nth-child(7) {
+  left: 100rem;
+  top: 70rem;
+}
+.inicio__icons-floating:nth-child(8) {
+  left: 150rem;
+  top: 10rem;
+}
+.inicio__icons-floating:nth-child(9) {
+  right: 170rem;
+  top: 10rem;
+}
+.inicio__icons-floating:nth-child(10) {
+  left: 70rem;
+  top: 10rem;
+}
+.inicio__icons-floating:nth-child(11) {
+  left: 20rem;
+  top: 50rem;
+}
+/* logo de maven */
+.inicio__icons-floating:nth-child(12) {
+  right: 20rem;
+  top: 60rem;
+  width: 15rem;
+}
+.inicio__icons-floating:nth-child(13) {
+  right: 30rem;
+  top: 30rem;
+}
 
 .sec1 { flex-direction: column; }
 
