@@ -336,3 +336,16 @@ body { background-color: var(--dark-color); }
 }
 
 /***** End TIMELINE *****/
+
+
+/***** IMG *****/
+
+.imagen-fondo {
+  position: absolute; /* Posición absoluta */
+  top: 0; /* Se coloca en la parte superior */
+  left: 0; /* Se coloca a la izquierda */
+  width: 100%; /* Ocupar todo el ancho de la pantalla */
+  z-index: -1; /* Colocar la imagen detrás del contenido */
+  background-image: url("devops1.jpg");
+}
+/***** End IMG *****/
