@@ -44,7 +44,7 @@ body { background-color: var(--dark-color); }
 }
 
 .titulo { 
-  font-size: 12rem; 
+  font-size: 7rem; 
   font-weight: 900;
   text-align: center;
 
@@ -55,10 +55,10 @@ body { background-color: var(--dark-color); }
 }
 
 .parrafo {
-  width: 120rem;
+  width: 35rem;
   text-align: center;
   line-height: 1.5;
-  font-size: 3rem;
+  font-size: 1.9rem;
 
   color: var(--main-color);
 }
@@ -106,7 +106,7 @@ body { background-color: var(--dark-color); }
 .inicio__icons-floating {
   position: absolute;
   top: 0;
-  width: 10rem;
+  width: 5rem;
   
   filter: drop-shadow(0 0 6rem var(--blue-color));
 
@@ -171,6 +171,7 @@ body { background-color: var(--dark-color); }
   right: 5%;
   top: 25%;
   width: 15rem;
+  display: none;
 }
 .inicio__icons-floating:nth-child(13) {
   right: 20%;
@@ -359,3 +360,27 @@ body { background-color: var(--dark-color); }
 
 
 /***** End IMG *****/
+
+
+/***** MEDIAQUERIES *****/
+@media screen and (min-width: 70rem) {
+  .titulo {
+    font-size: 12rem;
+  }  
+
+  .inicio__icons-floating {
+    width: 10rem;
+  }
+  /* logo de maven */
+  .inicio__icons-floating:nth-child(12) {
+    display: inline-block;
+  }
+
+  .parrafo {
+    font-size: 3rem;
+    width: 120rem;
+  }
+}
+
+
+/***** End MEDIAQUERIES *****/
