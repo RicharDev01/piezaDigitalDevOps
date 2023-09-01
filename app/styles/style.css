@@ -348,4 +348,14 @@ body { background-color: var(--dark-color); }
   z-index: -1; /* Colocar la imagen detrás del contenido */
   background-image: url("devops1.jpg");
 }
+
+/* Estilos para centrar y ajustar el tamaño del gif */
+.centered-gif {
+  display: block;
+  margin: 0 auto;
+  width: 75%; /* Cambia el valor según tus preferencias */
+  height: auto; /* Para mantener la proporción original */
+}
+
+
 /***** End IMG *****/
