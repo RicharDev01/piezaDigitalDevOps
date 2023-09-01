@@ -21,7 +21,34 @@ html {
   font-family: 'Montserrat', sans-serif;
 }
 
-body { background-color: var(--dark-color); }
+body { background-color: var(--dark-color); 
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  /* Otros estilos generales aquí */
+}
+/* Media query para pantallas pequeñas (ejemplo: teléfonos móviles) */
+@media (max-width: 768px) {
+  body {
+    font-size: 14px; /* Reduce el tamaño de la fuente */
+    /* Otros estilos específicos para pantallas pequeñas aquí */
+  }
+}
+
+/* Media query para pantallas medianas (ejemplo: tabletas) */
+@media (min-width: 769px) and (max-width: 1024px) {
+  body {
+    font-size: 16px; /* Restaura el tamaño de la fuente original */
+    /* Otros estilos específicos para pantallas medianas aquí */
+  }
+}
+
+/* Media query para pantallas grandes (ejemplo: computadoras de escritorio) */
+@media (min-width: 1025px) {
+  /* Estilos específicos para pantallas grandes aquí */
+}
+
 
 ::-webkit-scrollbar {
   width: 1rem;
