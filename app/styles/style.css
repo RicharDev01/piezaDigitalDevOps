@@ -31,7 +31,7 @@ body { background-color: var(--dark-color);
 /* Media query para pantallas pequeñas (ejemplo: teléfonos móviles) */
 @media (max-width: 768px) {
   body {
-    font-size: 14px; /* Reduce el tamaño de la fuente */
+    /* font-size: 14px; Reduce el tamaño de la fuente */
     /* Otros estilos específicos para pantallas pequeñas aquí */
   }
 }
@@ -39,7 +39,7 @@ body { background-color: var(--dark-color);
 /* Media query para pantallas medianas (ejemplo: tabletas) */
 @media (min-width: 769px) and (max-width: 1024px) {
   body {
-    font-size: 16px; /* Restaura el tamaño de la fuente original */
+    /* font-size: 16px; Restaura el tamaño de la fuente original */
     /* Otros estilos específicos para pantallas medianas aquí */
   }
 }
